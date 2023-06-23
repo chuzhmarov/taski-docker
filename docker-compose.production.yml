@@ -26,5 +26,6 @@ services:
     env_file: .env
     volumes:
       - static_volume:/staticfiles/
+    # Ports
     ports:
       - 8000:80
